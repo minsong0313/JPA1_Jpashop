@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class MemberRepository {
 
-    @PersistenceContext
+    @PersistenceContext //스프링 부트가 엔티티 매니저 주입
     private EntityManager em;
 
     public Long save(Member member) {
