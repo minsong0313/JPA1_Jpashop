@@ -50,6 +50,16 @@ public class MemberServiceTest {
         //then
         fail("예외가 발생해야 한다.");
 
+        /** Junit5 테스트 코드 - @Test(expected= ... ) 사용 불가
+         * @RunWith(SpringRunner.class) 안해줘도 동작함
+         * 테스트 메서드에 public 생략 가능
+
+        memberService.join(member1);
+        Assertions.assertThrows(IllegalStateException.class, () -> {
+            memberService.join(member2);
+        });
+         **/
+
     }
 
 
