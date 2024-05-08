@@ -1,20 +1,2 @@
-spring:
-  datasource:
-    #테스트는 메모리 DB를 사용하기(별도로 추가하지 않아도 기본이 메모리 DB)
-    url: jdbc:h2:mem:test
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
-
-  jpa:
-    hibernate:
-      ddl_auto: create drop
-    properties:
-      hibernate:
-#        show_sql: true #System.out에 하이버네이트 실행 SQL 남김
-        format_sql: true
-
-logging:
-  level:
-    org.hibernate.SQL: debug # logger를 통해 하이버네이트 실행 SQL을 남김(추천 방법)
-    org.hibernate.orm.jdbc.bind: trace
+# url 설정을 test 메모리 DB로 했더니 테스트 오류 발생
+# 따로 설정을 해주지 않아도 기본이 test 메모리 DB 이므로 설정 내용 삭제하고 공백으로 만들어줌
