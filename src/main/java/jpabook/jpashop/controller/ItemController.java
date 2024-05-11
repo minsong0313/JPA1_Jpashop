@@ -75,7 +75,8 @@ public class ItemController {
 
     //상품 수정 후
     @PostMapping("/items/{itemId}/edit")
-    public String updateItem(@PathVariable String itemId, @ModelAttribute("form") BookForm form) {
+    public String updateItem(@PathVariable Long itemId, @ModelAttribute("form") BookForm form) {
+        /*
         Book book = new Book();
         book.setId(form.getId()); //id 셋팅되어있음 -> jpa에 들어갔다 나왔다는 것 => 준영속 상태 객체
         book.setName(form.getName());
@@ -85,6 +86,10 @@ public class ItemController {
         book.setIsbn(form.getIsbn());
 
         itemService.saveItem(book);
+        */
+
+        itemService.updateItem(itemId, form.getPrice(), form.getStockQuantity());
+        
         return "redirect:/items";
     }
 }

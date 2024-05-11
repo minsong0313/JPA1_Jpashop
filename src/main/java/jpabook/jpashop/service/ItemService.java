@@ -21,6 +21,18 @@ public class ItemService {
         return item.getId();
     }
 
+    /**
+     * 영속성 컨텍스트가 자동 변경
+     * 가격과 재고수량만 수정 가능하도록 설정하자
+     */
+    @Transactional
+    public void updateItem(Long itemId, int price, int stockQuantity) {
+        Item findItem = itemRepository.findOne(itemId); // 영속 상태
+
+        findItem.setPrice(price);
+        findItem.setStockQuantity(stockQuantity);
+    }
+
     public List<Item> findItems() {
         return itemRepository.findAll();
     }
