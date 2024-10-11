@@ -7,6 +7,11 @@ Java Spring과 JPA를 사용하여 개발된 온라인 쇼핑 플래폼 입니�
 - Spring Framework
 - JPA/Hibernate
 - H2 Database
+## 도메인 모델과 테이블 설계
+![image](https://github.com/user-attachments/assets/47825870-21c8-4c2d-a3ca-bf260939b2ee)
+![image](https://github.com/user-attachments/assets/28d45b5d-7f60-4806-a92e-45365a5c5d66)
+![image](https://github.com/user-attachments/assets/01e3f579-9036-4cab-84ad-20ab40e417bb)
+
 
 ## 주요 기능
 #### 1. 회원 기능
