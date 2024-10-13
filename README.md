@@ -27,3 +27,9 @@ Java Spring과 JPA를 사용하여 개발된 온라인 쇼핑 플래폼 입니�
 - 상품 주문
 - 주문 내역 조회
 - 주문 취소
+
+## 실행 화면
+![image](https://github.com/user-attachments/assets/e691f38b-3ce9-4237-a08e-476fffea8efe)
+
+## 보완할 점
+- aws로 웹사이트 배포해보기
