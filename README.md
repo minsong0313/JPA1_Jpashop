@@ -8,9 +8,9 @@ Java Spring과 JPA를 사용하여 개발된 온라인 쇼핑 플래폼 입니�
 - JPA/Hibernate
 - H2 Database
 ## 도메인 모델과 테이블 설계
-![image](https://github.com/user-attachments/assets/47825870-21c8-4c2d-a3ca-bf260939b2ee)
-![image](https://github.com/user-attachments/assets/28d45b5d-7f60-4806-a92e-45365a5c5d66)
-![image](https://github.com/user-attachments/assets/01e3f579-9036-4cab-84ad-20ab40e417bb)
+<img src="https://github.com/user-attachments/assets/47825870-21c8-4c2d-a3ca-bf260939b2ee" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/28d45b5d-7f60-4806-a92e-45365a5c5d66" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/01e3f579-9036-4cab-84ad-20ab40e417bb" width="600" height="400"/>
 
 
 ## 주요 기능
@@ -29,7 +29,7 @@ Java Spring과 JPA를 사용하여 개발된 온라인 쇼핑 플래폼 입니�
 - 주문 취소
 
 ## 실행 화면
-![image](https://github.com/user-attachments/assets/e691f38b-3ce9-4237-a08e-476fffea8efe)
+<img src="https://github.com/user-attachments/assets/294cd4b3-163f-4613-a300-cdead62835f4" width="600" height="400"/>
 
 ## 보완할 점
 - aws로 웹사이트 배포해보기
